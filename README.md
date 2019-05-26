@@ -91,7 +91,7 @@ python src/main.py
 The API skeleton is the following:
 
 ```bash
-/api/<API_V>/<ENDPOINT>
+http://localhost:5000/api/<API_V>/<ENDPOINT>
 ```
 
 with
