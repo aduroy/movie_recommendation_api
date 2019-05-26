@@ -1,0 +1,119 @@
+# ---------- ratings.csv ---------- #
+Loading csv...
+Done!
+
+=> GENERAL:
+- Nb users:
+138493
+
+- Nb movies:
+26744
+
+=> USERS:
+- Nb votes for users:
+Min.   20
+Max.   9254
+Avg    144.41
+Median 68.0
+Std    230.27
+
+- Top 5 users (#votes)::
+        nb_votes
+userId
+118205      9254
+8405        7515
+82418       5646
+121535      5520
+125794      5491
+
+- Flop 5 users (#votes)::
+        nb_votes
+userId
+39574         20
+61692         20
+20578         20
+68139         20
+21882         20
+
+=> MOVIES:
+- Nb votes for movies:
+Min.   1
+Max.   67310
+Avg    747.84
+Median 18.0
+Std    3085.82
+
+- Top 5 movies (#votes)::
+         nb_votes                             title                            genres
+movieId
+296         67310               Pulp Fiction (1994)       Comedy|Crime|Drama|Thriller
+356         66172               Forrest Gump (1994)          Comedy|Drama|Romance|War
+318         63366  Shawshank Redemption, The (1994)                       Crime|Drama
+593         63299  Silence of the Lambs, The (1991)             Crime|Horror|Thriller
+480         59715              Jurassic Park (1993)  Action|Adventure|Sci-Fi|Thriller
+
+- Flop 5 movies (#votes)::
+         nb_votes                                              title                    genres
+movieId
+131262          1                                   Innocence (2014)  Adventure|Fantasy|Horror
+84436           1                 Less is More (Menos es más) (2000)                    Comedy
+84442           1                     Dark Forces (Harlequin) (1980)     Drama|Fantasy|Mystery
+84500           1  Seventh Horse of the Sun  (Suraj Ka Satvan Gho...             Drama|Romance
+84534           1                                     Kolberg (1945)                 Drama|War
+
+- Top 5 movies (avg. score)::
+         avg_score                              title               genres
+movieId
+95517          5.0  Barchester Chronicles, The (1982)                Drama
+105846         5.0               Only Daughter (2013)                Drama
+89133          5.0               Boys (Drenge) (1977)                Drama
+105187         5.0          Linotype: The Film (2012)          Documentary
+105191         5.0                Rocaterrania (2009)  Documentary|Fantasy
+
+- Flop 5 movies (avg. score)::
+         avg_score                                      title                       genres
+movieId
+117630         0.5                      Double Trouble (1992)  Action|Comedy|Crime|Romance
+94327          0.5                            Diverted (2009)                        Drama
+128675         0.5                        Hollow Point (1996)       Action|Comedy|Thriller
+101728         0.5  Miss Castaway and the Island Girls (2004)     Adventure|Comedy|Fantasy
+103769         0.5         Devil's in the Details, The (2013)                     Thriller
+
+=> RATINGS:
+- Nb ratings:
+20000263
+
+- Ratings (values):
+Min.   0.5
+Max.   5.0
+Avg    3.53
+Median 3.5
+Std    1.05
+
+=> Ratings distribution:
+5.0    2898660
+4.5    1534824
+4.0    5561926
+3.5    2200156
+3.0    4291193
+2.5     883398
+2.0    1430997
+1.5     279252
+1.0     680732
+0.5     239125
+Name: rating, dtype: int64
+
+=> Ratings distribution:
+###############################################################################
+█████████████████████████████████                                  2898660  5.0
+█████████████████                                                  1534824  4.5
+█████████████████████████████████████████████████████████████████  5561926  4.0
+█████████████████████████                                          2200156  3.5
+██████████████████████████████████████████████████                 4291193  3.0
+██████████                                                          883398  2.5
+████████████████                                                   1430997  2.0
+███                                                                 279252  1.5
+███████                                                             680732  1.0
+██                                                                  239125  0.5
+
+Process finished with exit code 0

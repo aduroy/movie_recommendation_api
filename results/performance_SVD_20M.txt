@@ -1,0 +1,6 @@
+Evaluating RMSE of algorithm SVD on 5 split(s).
+
+                  Fold 1  Fold 2  Fold 3  Fold 4  Fold 5  Mean    Std
+RMSE (testset)    0.7865  0.7859  0.7855  0.7866  0.7860  0.7861  0.0004
+Fit time          1040.61 1073.26 1072.87 1096.64 1095.36 1075.75 20.35
+Test time         415.78  269.28  260.02  366.01  317.58  325.73  58.82

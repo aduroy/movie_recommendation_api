@@ -1,0 +1,358 @@
+# ---------- movies.csv ---------- #
+Loading csv...
+Done!
+
+=> MOVIES:
+- Nb movies:
+27278
+
+- Nb genres per movie:
+Min.   1
+Max.   10
+Avg    1.99
+Median 2
+Std    1.04
+
+=> Nb genres/movie distribution:
+###############################################################################
+████████████████████████████████████████████████████████████████████  10829  1
+███████████████████████████████████████████████████████                8809  2
+█████████████████████████████████                                      5330  3
+██████████                                                             1724  4
+██                                                                      477  5
+                                                                         83  6
+                                                                         20  7
+                                                                          5  8
+                                                                          1  10
+
+=> YEARS:
+- Years (values):
+Min.   1891
+Max.   2015
+Avg    1989.37
+Median 1998
+Std    23.34
+
+=> Years distribution:
+
+=> Years distribution:
+###############################################################################
+███████                                                               120  2015
+████████████████████████████████████████████                          740  2014
+████████████████████████████████████████████████████████████         1011  2013
+█████████████████████████████████████████████████████████████        1022  2012
+█████████████████████████████████████████████████████████████        1016  2011
+█████████████████████████████████████████████████████████             962  2010
+███████████████████████████████████████████████████████████████████  1113  2009
+██████████████████████████████████████████████████████████            979  2008
+██████████████████████████████████████████████████████                902  2007
+███████████████████████████████████████████████████                   855  2006
+████████████████████████████████████████████                          741  2005
+██████████████████████████████████████████                            706  2004
+███████████████████████████████████████                               655  2003
+████████████████████████████████████████                              678  2002
+██████████████████████████████████████                                633  2001
+████████████████████████████████████                                  613  2000
+████████████████████████████████                                      542  1999
+█████████████████████████████████                                     555  1998
+███████████████████████████████                                       528  1997
+██████████████████████████████                                        509  1996
+████████████████████████████                                          474  1995
+██████████████████████████                                            432  1994
+██████████████████████                                                371  1993
+████████████████████                                                  335  1992
+██████████████████                                                    312  1991
+██████████████████                                                    314  1990
+██████████████████                                                    310  1989
+███████████████████                                                   325  1988
+██████████████████                                                    313  1987
+████████████████                                                      266  1986
+███████████████                                                       254  1985
+██████████████                                                        234  1984
+█████████████                                                         222  1983
+██████████████                                                        238  1982
+██████████████                                                        248  1981
+██████████████                                                        243  1980
+████████████                                                          202  1979
+███████████                                                           192  1978
+███████████                                                           198  1977
+███████████                                                           199  1976
+███████████                                                           196  1975
+███████████                                                           195  1974
+████████████                                                          211  1973
+█████████████                                                         219  1972
+████████████                                                          205  1971
+████████████                                                          204  1970
+██████████                                                            177  1969
+████████████                                                          203  1968
+██████████                                                            173  1967
+███████████                                                           199  1966
+█████████                                                             166  1965
+██████████                                                            173  1964
+████████                                                              148  1963
+█████████                                                             151  1962
+███████                                                               123  1961
+████████                                                              148  1960
+█████████                                                             151  1959
+████████                                                              146  1958
+█████████                                                             163  1957
+████████                                                              136  1956
+████████                                                              146  1955
+██████                                                                113  1954
+████████                                                              136  1953
+███████                                                               131  1952
+███████                                                               125  1951
+███████                                                               122  1950
+███████                                                               126  1949
+██████                                                                102  1948
+█████                                                                  99  1947
+█████                                                                  92  1946
+██████                                                                105  1945
+██████                                                                101  1944
+███████                                                               117  1943
+██████                                                                101  1942
+██████                                                                107  1941
+███████                                                               117  1940
+█████                                                                  93  1939
+█████                                                                  95  1938
+██████                                                                104  1937
+██████                                                                107  1936
+██████                                                                107  1935
+██████                                                                101  1934
+█████                                                                  98  1933
+█████                                                                  96  1932
+████                                                                   69  1931
+███                                                                    59  1930
+███                                                                    50  1929
+██                                                                     48  1928
+█                                                                      31  1927
+██                                                                     40  1926
+█                                                                      32  1925
+█                                                                      30  1924
+█                                                                      17  1923
+█                                                                      25  1922
+█                                                                      27  1921
+█                                                                      19  1920
+█                                                                      17  1919
+                                                                        8  1918
+                                                                       12  1917
+█                                                                      17  1916
+█                                                                      17  1915
+                                                                       13  1914
+                                                                        5  1913
+                                                                        5  1912
+                                                                        3  1910
+                                                                        3  1909
+                                                                        1  1905
+                                                                        1  1903
+                                                                        1  1902
+                                                                        1  1901
+                                                                        1  1900
+                                                                        1  1899
+                                                                        5  1898
+                                                                        2  1896
+                                                                        2  1895
+                                                                        2  1894
+                                                                        1  1893
+                                                                        1  1891
+
+=> GENRES:
+- Genres:
+
+=> Genres distribution:
+###############################################################################
+████████████████████████████████████████████████████  13344  Drama
+████████████████████████████████                       8374  Comedy
+████████████████                                       4178  Thriller
+████████████████                                       4127  Romance
+█████████████                                          3520  Action
+███████████                                            2939  Crime
+██████████                                             2611  Horror
+█████████                                              2471  Documentary
+█████████                                              2329  Adventure
+██████                                                 1743  Sci-Fi
+█████                                                  1514  Mystery
+█████                                                  1412  Fantasy
+████                                                   1194  War
+████                                                   1139  Children
+████                                                   1036  Musical
+████                                                   1027  Animation
+██                                                      676  Western
+█                                                       330  Film-Noir
+                                                        246  (no genres listed)
+                                                        196  IMAX
+
+- Co-occurring genres:
+
+=> Co-occurring genres distribution:
+###############################################################################
+██████████████████████████████████████████████████  2573  Drama_Romance
+█████████████████████████████████████████████████   2546  Comedy_Drama
+████████████████████████████████████                1895  Comedy_Romance
+████████████████████████████████████                1868  Drama_Thriller
+█████████████████████████████████                   1712  Crime_Drama
+███████████████████████                             1232  Crime_Thriller
+███████████████████████                             1203  Action_Drama
+█████████████████████                               1109  Action_Thriller
+████████████████████                                1073  Horror_Thriller
+██████████████████                                   972  Action_Adventure
+█████████████████                                    894  Drama_War
+███████████████                                      795  Mystery_Thriller
+██████████████                                       767  Action_Crime
+██████████████                                       721  Drama_Mystery
+█████████████                                        719  Action_Comedy
+█████████████                                        692  Comedy_Crime
+█████████████                                        690  Adventure_Drama
+████████████                                         641  Action_Sci-Fi
+███████████                                          601  Adventure_Comedy
+██████████                                           526  Children_Comedy
+█████████                                            511  Adventure_Fantasy
+█████████                                            493  Comedy_Musical
+█████████                                            476  Comedy_Fantasy
+█████████                                            470  Animation_Children
+█████████                                            468  Crime_Mystery
+████████                                             459  Sci-Fi_Thriller
+████████                                             451  Horror_Sci-Fi
+████████                                             450  Adventure_Children
+████████                                             450  Drama_Horror
+███████                                              395  Comedy_Horror
+███████                                              394  Drama_Fantasy
+███████                                              392  Horror_Mystery
+███████                                              390  Comedy_Thriller
+███████                                              384  Adventure_Sci-Fi
+███████                                              369  Animation_Comedy
+██████                                               352  Adventure_Animation
+██████                                               352  Drama_Sci-Fi
+██████                                               337  Drama_Musical
+██████                                               325  Action_Fantasy
+██████                                               324  Musical_Romance
+██████                                               316  Comedy_Sci-Fi
+██████                                               311  Children_Fantasy
+█████                                                304  Adventure_Thriller
+█████                                                299  Action_War
+█████                                                294  Adventure_Romance
+█████                                                270  Action_Horror
+█████                                                268  Action_Romance
+█████                                                264  Animation_Fantasy
+█████                                                262  Romance_Thriller
+████                                                 247  Fantasy_Romance
+████                                                 242  Crime_Romance
+████                                                 235  Drama_Film-Noir
+████                                                 234  Comedy_Mystery
+████                                                 220  Children_Drama
+███                                                  198  Action_Animation
+███                                                  190  Romance_War
+███                                                  189  Fantasy_Sci-Fi
+███                                                  188  Fantasy_Horror
+███                                                  180  Crime_Film-Noir
+███                                                  168  Adventure_War
+███                                                  162  Drama_Western
+███                                                  161  Crime_Horror
+███                                                  156  Animation_Sci-Fi
+██                                                   154  Mystery_Romance
+██                                                   147  Adventure_Crime
+██                                                   140  Action_Mystery
+██                                                   138  Children_Musical
+██                                                   135  Mystery_Sci-Fi
+██                                                   135  Action_Western
+██                                                   135  Comedy_Western
+██                                                   133  Animation_Drama
+██                                                   129  Fantasy_Thriller
+██                                                   126  Comedy_Documentary
+██                                                   124  Film-Noir_Thriller
+██                                                   121  Documentary_Drama
+██                                                   119  Comedy_War
+██                                                   118  Fantasy_Mystery
+██                                                   113  Animation_Musical
+██                                                   113  Romance_Western
+██                                                   106  Fantasy_Musical
+██                                                   105  Adventure_Western
+█                                                    102  Action_Children
+█                                                    101  Action_IMAX
+█                                                    100  Thriller_War
+█                                                     99  Romance_Sci-Fi
+█                                                     99  Documentary_Musical
+█                                                     89  Adventure_IMAX
+█                                                     82  Documentary_War
+█                                                     80  Adventure_Horror
+█                                                     79  Adventure_Musical
+█                                                     78  Adventure_Mystery
+█                                                     77  Children_Sci-Fi
+█                                                     73  Children_Romance
+█                                                     72  Horror_Romance
+█                                                     70  Animation_Romance
+█                                                     65  Film-Noir_Mystery
+█                                                     63  IMAX_Sci-Fi
+                                                      51  Crime_Sci-Fi
+                                                      50  Fantasy_IMAX
+                                                      46  Adventure_Documentary
+                                                      40  Crime_Documentary
+                                                      39  Drama_IMAX
+                                                      36  Animation_IMAX
+                                                      36  IMAX_Thriller
+                                                      35  Film-Noir_Romance
+                                                      33  Crime_Fantasy
+                                                      33  Children_IMAX
+                                                      32  Sci-Fi_War
+                                                      31  Animation_Horror
+                                                      30  Animation_Crime
+                                                      29  Documentary_IMAX
+                                                      29  Crime_Western
+                                                      29  Action_Musical
+                                                      29  Animation_Mystery
+                                                      29  Comedy_IMAX
+                                                      28  Children_Mystery
+                                                      28  Crime_War
+                                                      27  War_Western
+                                                      27  Thriller_Western
+                                                      25  Crime_Musical
+                                                      25  Animation_Thriller
+                                                      25  Animation_War
+                                                      25  Musical_Sci-Fi
+                                                      23  Horror_Musical
+                                                      22  Musical_Western
+                                                      21  Fantasy_War
+                                                      20  Horror_War
+                                                      19  Documentary_Horror
+                                                      18  Children_Crime
+                                                      18  Sci-Fi_Western
+                                                      18  Mystery_War
+                                                      15  Animation_Documentary
+                                                      14  Musical_War
+                                                      13  Documentary_Romance
+                                                      13  Musical_Thriller
+                                                      13  Horror_IMAX
+                                                      13  Action_Film-Noir
+                                                      12  Horror_Western
+                                                      12  Musical_Mystery
+                                                      12  Documentary_Thriller
+                                                      11  IMAX_Musical
+                                                      11  Mystery_Western
+                                                      11  Children_Western
+                                                      11  Action_Documentary
+                                                      11  Documentary_Sci-Fi
+                                                      11  Documentary_Mystery
+                                                      11  Crime_IMAX
+                                                      10  IMAX_Romance
+                                                       9  Comedy_Film-Noir
+                                                       9  Children_Horror
+                                                       8  Film-Noir_Sci-Fi
+                                                       8  Animation_Western
+                                                       7  Film-Noir_Horror
+                                                       7  IMAX_Mystery
+                                                       6  Children_Thriller
+                                                       6  Fantasy_Western
+                                                       6  Children_Documentary
+                                                       6  Documentary_Fantasy
+                                                       5  Fantasy_Film-Noir
+                                                       5  Adventure_Film-Noir
+                                                       4  Children_War
+                                                       4  Film-Noir_Musical
+                                                       4  IMAX_War
+                                                       3  Film-Noir_War
+                                                       2  Animation_Film-Noir
+                                                       2  Documentary_Western
+                                                       2  IMAX_Western
+                                                       1  Film-Noir_Western
+
+Process finished with exit code 0
