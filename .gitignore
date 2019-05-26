@@ -9,4 +9,4 @@ venv/
 
 data/ratings.csv
 data/genome-scores.csv
-data/model_20M.pkl
+data/model/model_20M.pkl
