@@ -6,6 +6,10 @@ This project aims at providing a simple API for movie recommendation, based on:
 
 => [download](https://grouplens.org/datasets/movielens/)
 
+Please save CSV files into the `data/` folder.
+
+The pre-trained model for 20M ratings is downloadable [here](https://we.tl/t-s2o6YaPDgV) and must be placed in `data/model/`.
+
 ## Approach
 
 To achieve the task, the following steps are:
